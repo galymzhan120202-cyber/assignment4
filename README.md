@@ -41,7 +41,7 @@ This project strictly adheres to the 5 SOLID principles:
 * **Applied:** Instead of a large "God Interface", we use small, specific interfaces:
     * `Validatable` (for validation logic)
     * `PricedItem` (for pricing logic)
-    * [cite_start]`CrudRepository` (for database logic)
+    * `CrudRepository` (for database logic)
 
 # 5. Dependency Inversion Principle (DIP)
 * **Applied:** High-level modules (`BookService`) do not depend on low-level modules (`BookRepositoryImpl`).
@@ -90,4 +90,5 @@ CREATE TABLE books (
 
 # 2. Database Structure (PostgreSQL)
 *Shows the `library_db` and `books` table successfully created.*
+
 ![Database Structure](![img_1.png](img_1.png))
